@@ -1,0 +1,29 @@
+print("=" * 45)
+print("        BASIC CHATBOT")
+print("=" * 45)
+
+print("Hello! I am your chatbot.")
+print("Type 'bye' anytime to exit.\n")
+
+while True:
+
+    user = input("You: ").lower()
+
+    if user == "hello":
+        print("Bot: Hello! Nice to meet you.")
+
+    elif user == "how are you":
+        print("Bot: I'm fine, thank you!")
+
+    elif user == "what is your name":
+        print("Bot: I am a simple Python chatbot.")
+
+    elif user == "who made you":
+        print("Bot: I was created by Zubia Rao using Python.")
+
+    elif user == "bye":
+        print("Bot: Goodbye! Have a great day.")
+        break
+
+    else:
+        print("Bot: Sorry, I don't understand that.")
